@@ -60,9 +60,3 @@ function CardArea:align_cards()
     end
     return hook(self)
 end
-
-local hook2 = Card.load
-function Card:load(cardTable, other_card)
-    hook2(self, cardTable, other_card)
-    self.base.suit_nominal = SMODS.Suits[self.base.suit].suit_nominal
-end
