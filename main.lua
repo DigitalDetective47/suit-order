@@ -29,13 +29,10 @@ SMODS.current_mod.config_tab = function()
     local area = CardArea(nil, nil, 4 * G.CARD_W, G.CARD_H,
         { card_limit = #SMODS.Mods.SuitOrder.config.suit_order, highlight_limit = 0, type = "title" })
     area.suit_order_update = true
-    -- local old_g = G.playing_cards
-    -- G.playing_cards = {}
     for k, v in ipairs(SMODS.Mods.SuitOrder.config.suit_order) do
         local card = Card(nil, nil, G.CARD_W, G.CARD_H, G.P_CARDS[SMODS.Suits[v].card_key .. "_A"], G.P_CENTERS.c_base)
         area:emplace(card)
     end
-    -- G.playing_cards = old_g
     return {
         n = G.UIT.ROOT,
         config = { align = "cm", r = 0.1, colour = G.C.BLACK, emboss = 0.05 },
