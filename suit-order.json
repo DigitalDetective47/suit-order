@@ -7,6 +7,6 @@
     "description": "Customize the default order of suits (ex. for hand sorting)",
     "prefix": "suit_order",
     "main_file": "main.lua",
-    "version": "1.0.2~dev",
+    "version": "1.0.2",
     "priority": 1.79e308
 }
