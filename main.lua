@@ -1,10 +1,3 @@
-SMODS.Atlas({
-    key = "modicon",
-    path = "icon.png",
-    px = 34,
-    py = 34,
-})
-
 local existing_suits = {}
 for i = #SMODS.current_mod.config.suit_order, 1, -1 do
     if SMODS.Suits[SMODS.current_mod.config.suit_order[i]] then

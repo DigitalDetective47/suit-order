@@ -7,6 +7,10 @@
     "description": "Customize the default order of suits (ex. for hand sorting)",
     "prefix": "suit_order",
     "main_file": "main.lua",
-    "version": "1.0.2",
-    "priority": 1.79e308
+    "icon_path": "icon.png",
+    "version": "1.0.3",
+    "priority": 1.79e308,
+    "dependencies": [
+        "Steamodded (>=1.0.0~BETA-1530d)"
+    ]
 }
