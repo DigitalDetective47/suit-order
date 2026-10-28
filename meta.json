@@ -8,7 +8,7 @@
     "prefix": "suit_order",
     "main_file": "main.lua",
     "icon_path": "icon.png",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "priority": 1.79e308,
     "dependencies": [
         "Steamodded (>=1.0.0~BETA-1530d)"

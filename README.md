@@ -1,0 +1,1 @@
+Simple mod that allows for changing the default sort order of suits.

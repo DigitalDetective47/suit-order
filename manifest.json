@@ -1,0 +1,9 @@
+{
+    "name": "Custom_Suit_Order",
+    "description": "Customize the default order of suits (ex. for hand sorting)",
+    "version_number": "1.0.4",
+    "dependencies": [
+        "Steamodded-Steamodded-1.1531.999999"
+    ],
+    "website_url": "https://github.com/DigitalDetective47/strange-pencil"
+}
